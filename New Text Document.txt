@@ -1,0 +1,4 @@
+font-family: 'Roboto', sans-serif;
+font-family: 'lato-medium', sans-serif;
+font-family: 'lato-semibold', sans-serif;
+font-family: 'Lato', sans-serif;
