@@ -80,15 +80,9 @@
     .act_top {
       margin-bottom: 0;
     }
-    .act_btn {
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      margin: 4px;
+  .act_button ul li:last-child {
+  margin-left: 80px;
   }
-  .act_btn:hover {
-    border: 1px solid #000;
-    border-radius: 8px;
-}
     .act_card {
       box-shadow: rgba(0, 0, 0);
       padding: 0 !important;
@@ -246,6 +240,12 @@ p.about_text_p2 {
 .act_card:hover .actc_body{
   top:80%;
 }
+.act_button{
+  padding: 0 30px;
+}
+.act_button ul li:nth-child(4) {
+  margin-left: 70px;
+}
 .actc_body::after {
   top: -220%;
 }
@@ -349,6 +349,12 @@ p.about_text_p2 {
 }
 .act_card:hover .actc_body {
   top: 75%;
+}
+.act_button{
+  padding: 0 130px;
+}
+.act_button ul li:nth-child(4) {
+  margin-left: 80px;
 }
 .actc_body::after {
   top: -140%;
