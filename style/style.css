@@ -276,18 +276,25 @@ border: none;
 .act_h1{
   margin-top: 10px;
 }
-.act_btn{
-  font-family: 'Roboto', sans-serif;
-  border: none;
-  width:140px;
-  background-color: transparent;
-  color: #8e8e8e;
+.act_btn {
+  font-family: Roboto, sans-serif;
+  width: 140px;
   text-transform: uppercase;
+  color: rgb(142, 142, 142);
+  border: none !important;
+  border-radius: 0px !important;
+  background-color: transparent !important;
+  padding: 10px 20px;
+}
+.act_btn:active{
+  border: 1px solid #333333 !important;
+  border-radius: 5px !important;
+  color: #333333 !important;
 }
 .act_btn:hover{
-  border: 1px solid #333333;
-  border-radius: 0px;
-  color: #333333;
+  border: 1px solid #333333 !important;
+  border-radius: 5px !important;
+  color: #333333 !important;
 }
 .act_btn:hover::after{
   display: none;
@@ -419,7 +426,7 @@ padding-bottom: 120px;
 .card_inner{
   position: relative;
   cursor: pointer;
-  transition: .33s;
+  transition: 0s;
 }
 .c_social {
     position: absolute;
@@ -429,7 +436,7 @@ padding-bottom: 120px;
     visibility: hidden;
     opacity: 0;
     transition: .33s;
-    transition-delay: 0;
+    transition-delay: 0.33s;
 }
 .c_social ul {
     background-color: white;
